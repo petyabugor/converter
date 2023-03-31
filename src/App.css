@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a{
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.active {
+  background-color: rgb(223, 222, 222);
+}

@@ -1,0 +1,54 @@
+.wrapper {
+    padding: 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: rgb(139, 139, 139);
+text-align: center;
+    @media(max-width:830px) {
+        font-size: 26px;
+    }
+
+    @media(max-width:670px) {
+        font-size: 20px;
+    }
+}
+
+.currencyWrapp {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    @media(max-width:590px) {
+        flex-direction: column;
+    }
+}
+
+.currencyDollar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.currencyEuro {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dollar {
+    display: flex;
+    gap: 3px;
+}
